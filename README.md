@@ -36,6 +36,17 @@ Este proyecto es una aplicación web desarrollada en **Spring Boot** con autenti
 ## Configuración del Proyecto
 
 ### Configuración de la Base de Datos
+El Proyecto viene con un Data Loader para tener datos con los que testear. Se pueden modificar en DataLoader:
+```
+Materia quimica = Materia.builder().nombre("Quimica").build();
+	  	  Materia mate = Materia.builder().nombre("Matematicas").build();
+	  	  
+	  	  Alumno miku = Alumno.builder().rut("123456789-0").nombre("Miku").direccion("Peor es nada 123").materiaList(Set.of(quimica,mate)).build();
+	  	  Alumno teto = Alumno.builder().rut("987654321-0").nombre("Teto").direccion("Cumpeo 654").materiaList(Set.of(mate)).build();
+	  	  
+	  	  alumnoRepo.saveAll(List.of(miku,teto)); 
+```
+### Configuración de la Base de Datos
 Asegúrate de tener PostgreSQL instalado y configurado. Crea una base de datos llamada `db_uandes`.
 
 ### Configura el Archivo `application.properties`
