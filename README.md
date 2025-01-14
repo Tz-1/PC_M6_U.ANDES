@@ -73,6 +73,10 @@ Password: tb123**
 Username: admin@tz.cl
 Password: admin123**
 
+## Puertos:
+**BACK**: `localhost:8020`
+**FRONT**: `localhost:8040`
+
 ## Endpoints
 ### Autenticacion
   - **POST** `/auth/signup` : Creacion de Usuarios.
