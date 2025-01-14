@@ -75,13 +75,13 @@ Password: admin123**
 
 ## Endpoints
 ### Autenticacion
-  - **POST** /auth/signup: Creacion de Usuarios.
-  - **POST** /auth/signin: Inicio de sesion y obtencion del JWT Token
+  - **POST** `/auth/signup` : Creacion de Usuarios.
+  - **POST** `/auth/signin` : Inicio de sesion y obtencion del JWT Token
 ### Alumnos
-  - **GET** /api/alumnos/listar: Listar todos los alumnos.
-  - **POST** /api/alumnos/guardar: Crear un nuevo alumno (requiere ROLE_ADMIN).
+  - **GET** `/api/alumnos/listar` : Listar todos los alumnos.
+  - **POST** `/api/alumnos/guardar` : Crear un nuevo alumno (requiere ROLE_ADMIN).
 ### Materias
-  - **POST** /api/materias/guardar: Crear una nueva materia (requiere ROLE_ADMIN).
+  - **POST** `/api/materias/guardar` : Crear una nueva materia (requiere ROLE_ADMIN).
 
 ## Ejemplos
 
