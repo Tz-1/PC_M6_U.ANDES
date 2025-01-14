@@ -53,6 +53,14 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 ```
+### Datos para acceder a la aplicacion.
+**ROLE_CLIENT: 
+Username: tz@tz.cl
+Password: tb123**
+
+**ROLE_ADMIN: 
+Username: admin@tz.cl
+Password: admin123**
 
 ## Endpoints
 ### Autenticacion
